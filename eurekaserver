@@ -1,0 +1,14 @@
+# Server port
+server.port=8761
+
+# Application name (Eureka Server)
+spring.application.name=eureka-server
+
+# Eureka server settings
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+# Optional: Enable self-preservation (recommended for production)
+eureka.server.enable-self-preservation=true
+
+# Optional: Eureka dashboard URL accessible at http://localhost:8761
